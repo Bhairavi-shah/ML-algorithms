@@ -1,9 +1,10 @@
 ML-algorithms
 =============
-9 most important machine learning algorithms in detail for easy reference
+Most important machine learning algorithms in detail for easy reference
 
-1. Linear Regression
---------------------
+## 1. Linear Regression
+https://www.kaggle.com/bhairavishah/housing-data-linear-regression?scriptVersionId=38198722
+
 It is used to predict some y values based on the value of another set of X values
 
 - used for regression
@@ -15,8 +16,7 @@ It is used to predict some y values based on the value of another set of X value
 - While creating a regression model, all that we are trying to do is draw a line that is as close as possible to each point in a dataset
 - The typical example of this is the “least squares method” of linear regression, which only calculates the closeness of a line to the x values in the up-and-down (vertical offsets) direction.
 
-2. Logistic Regression
-----------------------
+## 2. Logistic Regression
 It is similar to linear regression except that instead of calculating a numerical y value, it estimates which category a data point belongs to
 
 - used to solve binary classification problems
@@ -37,8 +37,7 @@ It is similar to linear regression except that instead of calculating a numerica
 ### Confusion Matrix
 - tool to compare true positives, true negatives, false positives and false negatives in machine learning
 
-3. K-Nearest Neighbors
-----------------------
+## 3. K-Nearest Neighbors
 Can be used in cases where there are more than two categories in classification
 
 - The K- nearest neighbors algorithm identifies "K" data points closest to the new observation
@@ -51,8 +50,7 @@ Can be used in cases where there are more than two categories in classification
 - having very low K value => perfectly predict training data and poorly predict test data
 - having too high K value => unnecessary complex model
 
-4. Decision Trees & Random Forests
------------------------------------
+## 4. Decision Trees & Random Forests
 Examples of tree methods.
 
 Decision trees => ML models used to make predictions by cycling through every feature in a data-set, one-by-one
@@ -78,8 +76,7 @@ Random forests => Decision trees using a random sample of features chosen as the
 - By randomly selecting features for each tree in a random forest, the trees become decorrelated and the variance of the resulting model is reduced. 
 - This decorrelation is the main advantage of using random forests over handmade decision trees
 
-5. Support Vector Machines (SVM)
---------------------------------
+## 5. Support Vector Machines (SVM)
 Classification algorithms (technically could be used to solve regression problems) that divide a data set into categories by slicing through the widest gap between categories.
 
 - ML models with associated learning algorithms that analyze data and recognize patterns
@@ -90,8 +87,7 @@ Classification algorithms (technically could be used to solve regression problem
 - "Optimal hyperplane" as the one that maximizes the margin between the closest data points from each category
 - The data points which touch the margin are called support vectors
 
-6. K-means Clustering
----------------------
+## 6. K-means Clustering
 ML algorithm that allows you to identify segments of similar data within a data set
 
 - Unsupervised machine learning algorithm
@@ -116,8 +112,7 @@ ML algorithm that allows you to identify segments of similar data within a data 
     - Plot SSE against different K values (2, 4, 6, 8, 10) - error decreases as K value increases
     - Choose the K value at which SSE slows its rate of decline abruptly (This is not the "best", just a good value)
 
-7. Principal Component Analysis (PCA)
--------------------------------------
+## 7. Principal Component Analysis (PCA)
 Used to transform a many-featured data set into a transformed data set with fewer features where each new feature is a linear combination of preexisting features. The transformed data set aims to explain most of the variance of the original data set with far more simplicity
 
 - aka. Factor Analysis
