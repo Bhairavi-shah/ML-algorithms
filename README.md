@@ -40,6 +40,8 @@ It is similar to linear regression except that instead of calculating a numerica
 - tool to compare true positives, true negatives, false positives and false negatives in machine learning
 
 ## 3. K-Nearest Neighbors
+https://www.kaggle.com/bhairavishah/knn-classifieddata
+
 Can be used in cases where there are more than two categories in classification
 
 - The K- nearest neighbors algorithm identifies "K" data points closest to the new observation
