@@ -3,7 +3,7 @@ ML-algorithms
 Most important machine learning algorithms in detail for easy reference
 
 ## 1. Linear Regression
-https://www.kaggle.com/bhairavishah/housing-data-linear-regression?scriptVersionId=38198722
+https://www.kaggle.com/bhairavishah/housing-data-linear-regression
 
 It is used to predict some y values based on the value of another set of X values
 
@@ -17,6 +17,8 @@ It is used to predict some y values based on the value of another set of X value
 - The typical example of this is the “least squares method” of linear regression, which only calculates the closeness of a line to the x values in the up-and-down (vertical offsets) direction.
 
 ## 2. Logistic Regression
+https://www.kaggle.com/bhairavishah/titanic-logistic-regression
+
 It is similar to linear regression except that instead of calculating a numerical y value, it estimates which category a data point belongs to
 
 - used to solve binary classification problems
