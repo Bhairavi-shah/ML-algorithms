@@ -83,6 +83,8 @@ Random forests => Decision trees using a random sample of features chosen as the
 - This decorrelation is the main advantage of using random forests over handmade decision trees
 
 ## 5. Support Vector Machines (SVM)
+https://www.kaggle.com/bhairavishah/svm-breastcancerdataset-scikitlearn
+
 Classification algorithms (technically could be used to solve regression problems) that divide a data set into categories by slicing through the widest gap between categories.
 
 - ML models with associated learning algorithms that analyze data and recognize patterns
