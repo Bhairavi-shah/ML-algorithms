@@ -123,6 +123,8 @@ ML algorithm that allows you to identify segments of similar data within a data 
     - Choose the K value at which SSE slows its rate of decline abruptly (This is not the "best", just a good value)
 
 ## 7. Principal Component Analysis (PCA)
+https://www.kaggle.com/bhairavishah/pca-breastcancerdataset-scikitlearn
+
 Used to transform a many-featured data set into a transformed data set with fewer features where each new feature is a linear combination of preexisting features. The transformed data set aims to explain most of the variance of the original data set with far more simplicity
 
 - aka. Factor Analysis
