@@ -96,6 +96,8 @@ Classification algorithms (technically could be used to solve regression problem
 - The data points which touch the margin are called support vectors
 
 ## 6. K-means Clustering
+https://www.kaggle.com/bhairavishah/kmeans-makeblobs-scikitlearn
+
 ML algorithm that allows you to identify segments of similar data within a data set
 
 - Unsupervised machine learning algorithm
