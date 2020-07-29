@@ -2,11 +2,10 @@ ML-stuff
 ========
 Easy to access ML code for reference
 
-Important ML-Algorithms
+[Important ML-Algorithms](https://github.com/Bhairavi-shah/ML-stuff/tree/master/ML_Algorithms)
 -----------------------
 
-### 1. Linear Regression
-https://www.kaggle.com/bhairavishah/housing-data-linear-regression
+### [1. Linear Regression](https://www.kaggle.com/bhairavishah/housing-data-linear-regression)
 
 It is used to predict some y values based on the value of another set of X values
 
@@ -19,8 +18,7 @@ It is used to predict some y values based on the value of another set of X value
 - While creating a regression model, all that we are trying to do is draw a line that is as close as possible to each point in a dataset
 - The typical example of this is the “least squares method” of linear regression, which only calculates the closeness of a line to the x values in the up-and-down (vertical offsets) direction.
 
-### 2. Logistic Regression
-https://www.kaggle.com/bhairavishah/titanic-logistic-regression
+### [2. Logistic Regression](https://www.kaggle.com/bhairavishah/titanic-logistic-regression)
 
 It is similar to linear regression except that instead of calculating a numerical y value, it estimates which category a data point belongs to
 
@@ -42,8 +40,7 @@ It is similar to linear regression except that instead of calculating a numerica
 #### Confusion Matrix
 - tool to compare true positives, true negatives, false positives and false negatives in machine learning
 
-### 3. K-Nearest Neighbors
-https://www.kaggle.com/bhairavishah/knn-classifieddata
+### [3. K-Nearest Neighbors](https://www.kaggle.com/bhairavishah/knn-classifieddata)
 
 Can be used in cases where there are more than two categories in classification
 
@@ -57,8 +54,7 @@ Can be used in cases where there are more than two categories in classification
 - having very low K value => perfectly predict training data and poorly predict test data
 - having too high K value => unnecessary complex model
 
-### 4. Decision Trees & Random Forests
-https://www.kaggle.com/bhairavishah/decisiontrees-randomforests-kyphosispatients
+### [4. Decision Trees & Random Forests](https://www.kaggle.com/bhairavishah/decisiontrees-randomforests-kyphosispatients)
 
 Examples of tree methods.
 
@@ -66,8 +62,8 @@ Decision trees => ML models used to make predictions by cycling through every fe
 
 Random forests => Ensembles(group) of decision trees that used random orders of the features in the data sets
 
-#### Tree Methods
-##### Decision Tree
+### Tree Methods
+#### Decision Tree
 Every decision tree has two types pf elements:
     1. Nodes: locations where the tree splits according to the value of some attribute
     2. Edges: the outcome of a split to the nect node
@@ -75,18 +71,17 @@ Every decision tree has two types pf elements:
 Root => the node that performs the first split
 Leaves => terminal nodes that predict the final outcome
 
-###### Building Decision trees
+##### Building Decision trees
 Deciding which features to split your data on is a mathematically complex problem (Entropy and Information Gain)
 
-##### Random forests
+#### Random forests
 Random forests => Decision trees using a random sample of features chosen as the split (A new random sample of features is chosen for every single tree at every single split)
 
 - We want to avoid taking the average of highly correlated variables which might significantly reduce variance.
 - By randomly selecting features for each tree in a random forest, the trees become decorrelated and the variance of the resulting model is reduced. 
 - This decorrelation is the main advantage of using random forests over handmade decision trees
 
-### 5. Support Vector Machines (SVM)
-https://www.kaggle.com/bhairavishah/svm-breastcancerdataset-scikitlearn
+### [5. Support Vector Machines (SVM)](https://www.kaggle.com/bhairavishah/svm-breastcancerdataset-scikitlearn)
 
 Classification algorithms (technically could be used to solve regression problems) that divide a data set into categories by slicing through the widest gap between categories.
 
@@ -98,8 +93,7 @@ Classification algorithms (technically could be used to solve regression problem
 - "Optimal hyperplane" as the one that maximizes the margin between the closest data points from each category
 - The data points which touch the margin are called support vectors
 
-### 6. K-means Clustering
-https://www.kaggle.com/bhairavishah/kmeans-makeblobs-scikitlearn
+### [6. K-means Clustering](https://www.kaggle.com/bhairavishah/kmeans-makeblobs-scikitlearn)
 
 ML algorithm that allows you to identify segments of similar data within a data set
 
@@ -125,8 +119,7 @@ ML algorithm that allows you to identify segments of similar data within a data 
     - Plot SSE against different K values (2, 4, 6, 8, 10) - error decreases as K value increases
     - Choose the K value at which SSE slows its rate of decline abruptly (This is not the "best", just a good value)
 
-### 7. Principal Component Analysis (PCA)
-https://www.kaggle.com/bhairavishah/pca-breastcancerdataset-scikitlearn
+### [7. Principal Component Analysis (PCA)](https://www.kaggle.com/bhairavishah/pca-breastcancerdataset-scikitlearn)
 
 Used to transform a many-featured data set into a transformed data set with fewer features where each new feature is a linear combination of preexisting features. The transformed data set aims to explain most of the variance of the original data set with far more simplicity
 
@@ -134,3 +127,9 @@ Used to transform a many-featured data set into a transformed data set with fewe
 - ML technique that is used to examine the interrelations between sets of variables
 - Linear regression determines a line best fit through a dataset
 - PCA determines several orthogonal lines of best fit for the data set
+
+[Custom Prediction for AI Platform - GCP](https://github.com/Bhairavi-shah/ML-stuff/tree/master/Custom_Prediction_AI_Platform)
+---------------------------------------
+
+Code to deploy an ML model, in this case the cats v/s dogs prediction model, along with encoding and decoding of the byte data into string for data transmission on the Google Cloud Platform (GCP) and Google AI Platform.
+
